@@ -42,7 +42,7 @@ a {
     color: var(--light-purple);
 }
 
-.background-image {
+#background-image {
     background-image: url(../Images/background-image.jpeg);
     background-size: cover;
     height: 120px;
