@@ -68,22 +68,26 @@ a {
     width: 150px;
     padding-right: 20px;
     color: var(--dark-purple);
+    font-weight: 500;
 }
 
 #biography {
-    padding-left: 20px;
     border-left: solid var(--dark-purple);
-    margin-left: 177px;
-    margin-bottom: 40px;
+    padding-left: 20px;
     margin-right: 177px;
-    font-size: 15px;
+    margin-bottom: 40px;
+    margin-left: 177px;
+    font-size: 13px;
+    font-weight: 200;
 }
 
 #work {
 float: left;
+margin-top: 0;
 margin-left: 90px;
 margin-right: 10px;
 text-align: right;
+font-weight: 500;
 }
 
 #projects {
@@ -97,7 +101,6 @@ text-align: right;
 
 }
 
-
 .p1 {
     display: block;
     border: solid var(--light-purple);
@@ -106,7 +109,6 @@ text-align: right;
     margin: 10px;
 
 }
-
 
 .p2 {
     display: inline-block;
@@ -129,7 +131,7 @@ text-align: right;
 }
 
 
-/* Work section project images */
+/* #Work project images */
 #image-p1 {
     background-image: url(../Images/p1-code-refractor.png);
     background-size: cover;
@@ -175,15 +177,14 @@ text-align: right;
 footer #contact-me {
     float: left;
     border-right: solid;
-    width: 170px;
+    width: 163px;
     text-align: right;
     padding-right: 10px;
     color: var(--dark-purple);
+    font-weight: 400;
 }
 
 #contact {
-    border-left: var(--dark-purple);
-    height: auto;
     margin-left: 200px;
     padding-top: 40px;
 }
