@@ -109,14 +109,20 @@ margin: 20px;
 }
 #image-p3:hover {
     opacity: 1;
+
 }
 #image-p4 {
     background-image: url(../Images/p4-image.jpg);
     background-size: cover;
     opacity: .5;
 }
+#image-p4:hover {
+    opacity: 1; }
+
 #image-p5 {
     background-image: url(../Images/p5-image.jpg);
     background-size: cover;
     opacity: .5;
 }
+#image-p5:hover {
+    opacity: 1;
