@@ -1,0 +1,115 @@
+body{
+    background-color: rgba(231, 164, 231, 0.384);
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    background-color: aliceblue;
+}
+
+
+
+.background-image {
+    background-image: url(../Images/header-background-image.webp);
+    height: 200px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 48px ;
+}
+
+
+
+.work-title {
+float: left;
+padding: 50px;
+margin: 20px;
+
+}
+
+
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: auto;
+    width ;
+    border-left: solid ;
+    padding-left: 10px;
+
+}
+
+
+.p1 {
+    display: block;
+    border: solid pink;
+    width: 90%;
+    height: 250px;
+
+}
+
+
+.p2 {
+    display: inline-block;
+    border: solid green;
+    height: 200px ;
+    width: 30%;
+}
+
+.project-name {
+    box-sizing: border-box;
+    border: solid purple;
+    background: pink;
+    height: 30;
+    width: 50%;
+    float: left;
+    margin: -1.5 ;
+    font-size: 20px;
+
+}
+
+#image-p1 {
+    background-image: url(../Images/p1-code-refractor.png);
+    background-size: cover;
+    opacity: .5;
+    
+}
+#image-p1:hover {
+    opacity: 1;
+}
+
+#image-p2 {
+    background-image: url(../Images/p2-image.jpg);
+    background-size: cover;
+    opacity: .5;
+}
+#image-p3 {
+    background-image: url(../Images/p3-image.jpg);
+    background-size: cover;
+    opacity: .5;
+}
+#image-p4 {
+    background-image: url(../Images/p4-image.jpg);
+    background-size: cover;
+    opacity: .5;
+}
+#image-p5 {
+    background-image: url(../Images/p5-image.jpg);
+    background-size: cover;
+    opacity: .5;
+}
