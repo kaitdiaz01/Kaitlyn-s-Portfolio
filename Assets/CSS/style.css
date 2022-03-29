@@ -98,6 +98,10 @@ margin: 20px;
     background-size: cover;
     opacity: .5;
 }
+#image-p2:hover {
+    opacity: 1;
+}
+
 #image-p3 {
     background-image: url(../Images/p3-image.jpg);
     background-size: cover;
