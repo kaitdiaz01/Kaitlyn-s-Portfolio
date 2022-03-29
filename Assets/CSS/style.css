@@ -1,15 +1,19 @@
 body{
     background-color: rgba(231, 164, 231, 0.384);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
+    color: #000000;
     background-color: aliceblue;
+}
+
+header h1 {
+    font-size: 40px ;
 }
 
 
@@ -26,11 +30,11 @@ ul {
 
 li {
     padding: 10px;
+    text-decoration:none;
+    list-style: none;
 }
 
-header h1 {
-    font-size: 48px ;
-}
+
 
 
 
